@@ -1,0 +1,122 @@
+
+
+.section-1 {
+  height: 100vh;
+  background-image: url('/wave-haikei.png');
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.nameText{
+  width: 650px;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 40px;
+}
+.section-2{
+  min-height: 100vh;
+  background-image: url('/wave1.svg');
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+
+.aboutmeText {
+  /* width: 100%;  */
+  max-width: 670px; 
+  background-color: rgba(19, 49, 92, 1);
+  padding: 40px;
+  color: #ffffff;
+}
+
+
+.section-3 {
+  min-height: 100vh;
+  background-image: url('/wave-haikei.png');
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.companyText{
+ background-color: #ffff;
+ font-style: italic;
+}
+.expIcon{
+  width: 50px;
+  color: #13315c;
+}
+
+.section-4 {
+  min-height: 100vh;
+  background-image: url('/wave1.svg');
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.projects{
+ width: 300px;
+ height: 250px;
+ border: 1px solid #423B0B;
+}
+.projects:hover{
+  transform: scale(1.1);
+  border: 1px solid #43C59E;
+  transition: 0.5s;
+}
+
+.projectText{
+  color: #FFFF;
+  background-color: #13315c;
+}
+
+.projectTopBox{
+  height: 70%;
+  width: 100%;
+  
+}
+.projectBottomBox{
+  height: 30%;
+  width: 100%;
+  background-color: #43C59E;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}
+.tools{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #C46D5E;
+  padding: 7px;
+  border-radius: 5px;
+  color: #ffff;
+  height: 20px;
+
+}
+
+.icons{
+  font-size: 35px;
+  color: #13315c;
+}
+.icons:hover{
+  color: #43C59E;
+  transform: scale(1.1);
+  transition: 0.5s;
+}
