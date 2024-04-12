@@ -2,7 +2,7 @@
 
 .section-1 {
   height: 100vh;
-  background-image: url('/wave-haikei.png');
+  background-image: url('/wave3.svg');
   background-size: cover; 
   background-repeat: no-repeat; 
   display: flex;
@@ -18,7 +18,7 @@
 }
 .section-2{
   min-height: 100vh;
-  background-image: url('/wave1.svg');
+  background-image: url('/wave4.svg');
   background-size: cover; 
   background-repeat: no-repeat; 
   display: flex;
@@ -40,9 +40,8 @@
 
 .section-3 {
   min-height: 100vh;
-  background-image: url('/wave-haikei.png');
-  background-size: cover; 
-  background-repeat: no-repeat; 
+  background-color: #13315c;
+ color: #ffff; 
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -50,17 +49,15 @@
 }
 
 .companyText{
- background-color: #ffff;
  font-style: italic;
 }
 .expIcon{
   width: 50px;
-  color: #13315c;
 }
 
 .section-4 {
   min-height: 100vh;
-  background-image: url('/wave1.svg');
+  background-image: url('/wave5.svg');
   background-size: cover; 
   background-repeat: no-repeat; 
   display: flex;
@@ -81,7 +78,7 @@
 
 .projectText{
   color: #FFFF;
-  background-color: #13315c;
+ 
 }
 
 .projectTopBox{
@@ -92,7 +89,7 @@
 .projectBottomBox{
   height: 30%;
   width: 100%;
-  background-color: #43C59E;
+  background-color: #A594F9;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -103,7 +100,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #C46D5E;
+  background-color: #43C59E;
   padding: 7px;
   border-radius: 5px;
   color: #ffff;
@@ -119,4 +116,30 @@
   color: #43C59E;
   transform: scale(1.1);
   transition: 0.5s;
+}
+
+#backToTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+}
+
+#backToTopBtn a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background: #13315c;
+  color: #43C59E;
+  font-size: 24px;
+  border-radius: 50%;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#backToTopBtn a:hover {
+  background: #43C59E;
+  color: #13315c;
 }
