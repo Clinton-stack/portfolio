@@ -1,39 +1,12 @@
-'use client'
 import { Box, Container, Flex, HStack, Heading, Image, Text, VStack } from '@chakra-ui/react'
 import React from 'react'
 import { FaCubes, FaLinkedin, FaInstagram, FaGithub } from "react-icons/fa";
 import Link from "next/link";
 import BackToTopButton from '@/components/BackToTopButton';
-import { useState, useEffect } from 'react'
 
 
 
 export default function Home() {
-  const [showBackToTop, setShowBackToTop] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 500) {
-        console.log('scrolling')
-        setShowBackToTop(true);
-      } else {
-        setShowBackToTop(false);
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
-
-  const scrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth"
-    });
-  };
-
   return (
     <main>
       <div className='section-1' >
@@ -61,7 +34,9 @@ export default function Home() {
           <Heading as='h2' size='2xl' >About Me</Heading>
           <Text fontSize='l'>With a steadfast focus on mastering the intricacies of full-stack development, I&rsquo;ve cultivated my expertise in crafting robust web applications using technologies like React, Node.js, and MongoDB, alongside delving into cloud platforms such as AWS. This journey reflects my unwavering commitment to continuous learning and growth within the dynamic realm of software development. <br /> <br /> Driven by a deep-rooted passion for software engineering and data analysis, I embody a results-oriented approach and resilience in every project I undertake. Grounded in self-directed learning and an insatiable enthusiasm for technology, I continually expand my skill set to remain abreast of industry innovations. Thriving in swiftly adapting to emerging technologies, I leverage them adeptly to realize desired outcomes and propel success across all endeavors</Text>
         </div>
-        <div><Image width='100%' maxW='550px' h='auto' src='/about-me.jpeg' alt='About me Image' /></div>
+        <div >
+          <Image width='100%' maxW='550px' h='auto' src='/about-me.jpeg' alt='About me Image' />
+        </div>
 
       </div>
       <div className='section-3'>
@@ -168,9 +143,7 @@ export default function Home() {
           <Heading as='h2' size='2xl'>Contact Me</Heading>
         </div>
       </div>
-      <div id="backToTopBtn" onClick={scrollToTop} >
-        <a href="#" aria-label="Back to Top">&#8593;</a>
-      </div>
+     <BackToTopButton />
     </main>
   )
 }
