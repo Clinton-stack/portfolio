@@ -1,18 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Poppins&family=Satisfy&display=swap');
 
-body, div, h1,h2,h3,h4,h5,h6, p, a, img, ul, li, span, button, input, textarea {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+body{
+  background-color: #2e294e !important;
 }
 
 .main-container{
-  background-color: #2e294e;
-  padding-left: 40px;
+  margin-left: 70px;
+  margin-right: 70px;
 }
 
 .hero-section{
-  min-height: 100vh;
+  min-height: 90vh;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -24,11 +22,56 @@ body, div, h1,h2,h3,h4,h5,h6, p, a, img, ul, li, span, button, input, textarea {
   font-size: 30px;
   color: #ffff;
 }
+.icons:hover{
+  color: #ffd400;
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+.arrow-icons{
+  font-size: 40px;
+  color: #ffff;
+}
 .heroText{
-  font-family: 'Epilogue', sans-serif;
+  font-family: 'Epilogue', sans-serif !important;
   color: #ffff;
   font-weight: 900;
 }
+.devText{
+  font-family: 'Poppins', sans-serif !important;
+  color: #ffd400;
+  font-weight: 'normal';
+  font-size: 20px;
+}
+.regularText {
+  font-family: 'Epilogue', sans-serif !important;
+  color: rgba(255, 255, 255, 0.64); 
+  font-weight: normal; 
+  font-size: 16px;
+}
+
+/* Media queries for different screen sizes */
+@media (min-width: 320px) {
+  .heroText {
+    text-align: center; /* For medium-sized screens and above, use a fixed font size */
+    
+  }
+}
+@media (min-width: 768px) {
+  .heroText {
+     /* For medium-sized screens and above, use a fixed font size */
+    text-align: left;
+  }
+}
+
+@media (min-width: 1200px) {
+  .heroText {
+     /* For large screens and above, use another fixed font size */
+  }
+}
+
+
+
+
 
 
 
@@ -138,11 +181,6 @@ body, div, h1,h2,h3,h4,h5,h6, p, a, img, ul, li, span, button, input, textarea {
 }
 
 
-.icons:hover{
-  color: #43C59E;
-  transform: scale(1.1);
-  transition: 0.5s;
-}
 
 #backToTopBtn {
   position: fixed;
