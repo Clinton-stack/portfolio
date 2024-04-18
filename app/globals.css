@@ -1,8 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Poppins&family=Satisfy&display=swap');
+
+body, div, h1,h2,h3,h4,h5,h6, p, a, img, ul, li, span, button, input, textarea {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container{
+  background-color: #2e294e;
+  padding-left: 40px;
+}
+
+.hero-section{
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.icons{
+  font-size: 30px;
+  color: #ffff;
+}
+.heroText{
+  font-family: 'Epilogue', sans-serif;
+  color: #ffff;
+  font-weight: 900;
+}
 
 
+
+/* Css for old portfolio */
 .section-1 {
   height: 100vh;
-  background-image: url('/wave3.svg');
+  background-image: url('/wave6.svg');
   background-size: cover; 
   background-repeat: no-repeat; 
   display: flex;
@@ -11,11 +44,7 @@
   align-items: center;
 }
 
-.nameText{
-  width: 650px;
-  background-color: rgba(255, 255, 255, 0.3);
-  padding: 40px;
-}
+
 .section-2{
   min-height: 100vh;
   background-image: url('/wave4.svg');
@@ -108,10 +137,7 @@
 
 }
 
-.icons{
-  font-size: 35px;
-  color: #13315c;
-}
+
 .icons:hover{
   color: #43C59E;
   transform: scale(1.1);
@@ -143,5 +169,7 @@
   background: #43C59E;
   color: #13315c;
 }
+
+
 
 
