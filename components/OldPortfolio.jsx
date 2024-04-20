@@ -178,7 +178,7 @@ export default function OldPortfolio() {
       <div className="section-4">
         <VStack max-width="900px">
           <Heading as="h2" size="2xl" className="projectText" mb="25px">
-            Some Past Projects{" "}
+            Some Past Projects
           </Heading>
           <Flex flexWrap="wrap" justify="center" gap={6}>
             <Box

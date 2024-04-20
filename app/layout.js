@@ -1,6 +1,8 @@
 import { Epilogue } from "next/font/google";
 import "./globals.css";
 import { ChakraProvider } from '@chakra-ui/react'
+import 'reactflow/dist/style.css';
+
 
 
 const epilogue = Epilogue({ subsets: ["latin"] });
