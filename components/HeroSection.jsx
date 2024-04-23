@@ -26,15 +26,22 @@ export default function HeroSection() {
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.3 }}
       >
-        <Image
+        <Box
           w={{ base: "250px", md: "300px", lg: "320px" }}
           minW="200px"
-          h="auto"
-          borderRadius="full"
-          src="/clinton2.png"
-          alt="Clintons Image"
+          h={{ base: "200px", md: "300px", lg: "300px" }}
+          borderRadius="50%" 
+          overflow="hidden" 
           bgColor="#ffd400"
-        />
+        >
+          <Image
+            w="100%"
+            h="100%"
+            src="/clinton3.png"
+            alt="Clintons Image"
+            objectFit="cover" 
+          />
+        </Box>
       </motion.div>
 
       <HStack w="600px">
@@ -45,7 +52,7 @@ export default function HeroSection() {
               initial={{ opacity: 0, x: "100%" }}
               animate={{ opacity: 1, x: 0 }}
               exit={{ opacity: 0, x: "100%" }}
-              transition={{ duration: 0.3 }}
+              transition={{ duration: 0.5 }}
             >
               <VStack
                 className="textAlignment"

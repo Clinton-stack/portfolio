@@ -98,15 +98,17 @@ body {
 .timeline {
   position: relative;
   max-width: 1200px;
+  min-height: 100vh;
 }
-.container.visible {
-  animation: movedown 1s linear forwards;
-  opacity: 0;
-}
+
 .container{
   padding: 10px 40px;
   position: relative;
   width: 50%;
+  display: none;
+}
+.container.visible {
+  display: block;
   animation: movedown 1s linear forwards;
   opacity: 0;
 }
@@ -121,19 +123,19 @@ body {
   }
 }
 .container:nth-child(1) {
-  animation-delay: 0s;
-}
-.container:nth-child(2) {
   animation-delay: 1s;
 }
-.container:nth-child(3) {
+.container:nth-child(2) {
   animation-delay: 2s;
 }
-.container:nth-child(4) {
+.container:nth-child(3) {
   animation-delay: 3s;
 }
-.container:nth-child(5) {
+.container:nth-child(4) {
   animation-delay: 4s;
+}
+.container:nth-child(5) {
+  animation-delay: 5s;
 }
 
 .textbox {
@@ -159,7 +161,7 @@ body {
 .right-container .circle {
   left: -20px;
 }
-.timeline::after {
+.timeline.visible::after {
   content: "";
   position: absolute;
   width: 2px;
@@ -250,16 +252,11 @@ body {
   }
 }
 @media (max-width: 768px) {
-  /* .heroText {
-    
-    text-align: left;
-  } */
+
 }
 
 @media (max-width: 1200px) {
-  .heroText {
-    /* For large screens and above, use another fixed font size */
-  }
+
 }
 
 /* Css for old portfolio */

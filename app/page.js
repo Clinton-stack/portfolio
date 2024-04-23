@@ -5,6 +5,7 @@ import { Box, Button, Container, HStack, Heading, Image, Text, VStack } from "@c
 import Link from "next/link";
 import { FaGithub, FaInstagram, FaLinkedin, FaPhone } from "react-icons/fa";
 import { CiMail } from "react-icons/ci";
+import { IoIosCall } from "react-icons/io";
 import BackToTopButton from "@/components/BackToTopButton";
 
 
@@ -16,7 +17,7 @@ export default function Home() {
           href="tel:+4915216455841"
           target="_blank"
         >
-          <FaPhone className="icons" />
+          <IoIosCall className="icons" />
         </Link>
         <Link
           href="mailto:clintonemenari1@gmail.com"
@@ -71,7 +72,7 @@ export default function Home() {
               href="tel:+4915216455841"
               target="_blank"
             >
-              <FaPhone className="icons" />
+              <IoIosCall className="icons" />
             </Link>
             <Link
               href="mailto:clintonemenari1@gmail.com"
