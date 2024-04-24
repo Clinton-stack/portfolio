@@ -178,45 +178,7 @@ export default function Projects() {
         </Card>
       </Slide>
 
-      <Slide direction="left" triggerOnce fraction={0.7}>
-        <Card maxW="lg" bgColor="none" className="cards">
-          <CardBody>
-            <Box
-              as={Link}
-              href="https://portfolio-zeta-three-11.vercel.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-              passHref
-              pos="relative"
-            >
-              <Image
-                src="/portfolio.png"
-                alt="Clinton portfolio"
-                w="100%"
-                maxH="260px"
-              />
-              <FaExternalLinkAlt className="link-icon" />
-            </Box>
-
-            <VStack mt={3} align={{ base: "center", md: "flex-start" }}>
-              <Heading as="h3" size="l" className="headerText">
-                PROJECT INFO
-              </Heading>
-              <p className="regularText">
-                My portfolio website built with Next.js and Chakra UI
-              </p>
-              <Heading as="h3" size="l" className="headerText">
-                CLIENT
-              </Heading>
-              <p className="regularText">Me</p>
-              <Heading as="h3" size="l" className="headerText">
-                TECHNOLOGIES USED
-              </Heading>
-              <p className="regularText">React, Next.js, Chakra UI,</p>
-            </VStack>
-          </CardBody>
-        </Card>
-      </Slide>
+      
     </div>
   );
 }

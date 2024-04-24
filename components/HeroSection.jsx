@@ -37,7 +37,7 @@ export default function HeroSection() {
           <Image
             w="100%"
             h="100%"
-            src="/clinton3.png"
+            src="/file.png"
             alt="Clintons Image"
             objectFit="cover" 
           />
