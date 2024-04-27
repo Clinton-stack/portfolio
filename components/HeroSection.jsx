@@ -27,10 +27,9 @@ export default function HeroSection() {
         transition={{ duration: 0.3 }}
       >
         <Box
-          w={{ base: "250px", md: "300px", lg: "320px" }}
-          minW="200px"
-          h={{ base: "200px", md: "300px", lg: "300px" }}
-          borderRadius="50%" 
+          h={{base:'200px', md:'300px', lg:'400px'}}
+          w={{base:'200px', md:'300px', lg:'400px'}}
+          borderRadius="full" 
           overflow="hidden" 
           bgColor="#ffd400"
         >
