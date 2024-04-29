@@ -25,6 +25,8 @@ export default function Experience() {
   return (
     <>
       <Image src="/experience-icon.svg" alt="Experience Icon" w="50px" />
+    
+      <div className="timeline" ref={ref}>
       <div
         className="container left-container"
         ref={(el) => (containersRef.current[0] = el)}
@@ -49,7 +51,6 @@ export default function Experience() {
           </p>
         </div>
       </div>
-      <div className="timeline" ref={ref}>
         <div
           className="container right-container"
           ref={(el) => (containersRef.current[1] = el)}

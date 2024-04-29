@@ -137,6 +137,9 @@ body {
 .container:nth-child(5) {
   animation-delay: 5s;
 }
+.container:nth-child(6) {
+  animation-delay: 6s;
+}
 
 .textbox {
   padding: 20px 30px;
