@@ -1,4 +1,4 @@
-import Experience from "@/components/Experience";
+import Experience from "@/components/Experiences";
 import HeroSection from "@/components/HeroSection";
 import Projects from "@/components/Projects";
 import { Box, Button, Container, HStack, Heading, Image, Text, VStack } from "@chakra-ui/react";
