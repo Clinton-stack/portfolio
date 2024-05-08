@@ -191,12 +191,12 @@ body {
     text-align: center;
     align-items: center !important;
   }
-  .timeline.visible {
+  .timeline {
     margin: 50px auto;
-  }
-  .timeline.visible::after {
     left: 35px;
+
   }
+
   .container {
     width: 100%;
     padding-left: 80px;
