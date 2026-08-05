@@ -31,6 +31,9 @@ export default function Projects() {
               <FaExternalLinkAlt className="link-icon" />
             </Box>
             <VStack mt={3} align={{ base: "center", md: "flex-start" }}>
+              <Heading as="h3" size="md" className="projectTitle">
+                {project.name}
+              </Heading>
               <Heading as="h3" size="l" className="headerText">
                 PROJECT INFO
               </Heading>

@@ -66,12 +66,12 @@ export default function HeroSection() {
                   Clinton Emenari
                 </Heading>
                 <Heading as="h3" size="l" className="headerText">
-                  SOFTWARE DEVELOPER
+                  FRONTEND DEVELOPER
                 </Heading>
                 <p className="regularText">
-                  &#34;I am an enthusiastic software developer driven by a
-                  passion for problem-solving through innovative software
-                  solutions.&#34;
+                  &#34;Frontend Developer building responsive, accessible web and mobile
+                  interfaces with React, Next.js, React Native, and AWS-backed
+                  services.&#34;
                 </p>
                 <Button
                   as="a"
@@ -101,25 +101,19 @@ export default function HeroSection() {
                   About Me
                 </Heading>
                 <Text className="regularText">
-                  Absolutely love diving into the world of full-stack
-                  development. I&apos;ve been working hard to master everything
-                  from the front-end (think cool user interfaces) to the
-                  back-end (the engine that makes everything tick). Technologies
-                  like React, Node.js, and MongoDB have become my go-to tools,
-                  and I&apos;m also exploring cloud platforms like AWS to take
-                  things to the next level. This journey keeps me on my toes and
-                  constantly learning – it&apos;s the best part of being a
-                  software developer!
+                  I build responsive, accessible interfaces across web and mobile,
+                  with a strong focus on React, Next.js, React Native, Tailwind
+                  CSS, and Chakra UI. My work connects clean user experiences
+                  with REST APIs and cloud services such as AWS Lambda, Amazon
+                  S3, and CloudWatch.
                   <br />
                   <br />
-                  Software engineering and data analysis are my true passions. I
-                  bring a can-do attitude and a willingness to learn to every
-                  project. I&apos;m a big believer in taking initiative and
-                  staying curious about new tech. That&apos;s why I&apos;m
-                  always looking for ways to expand my skillset and keep up with
-                  the latest advancements. New challenges energize me, and I
-                  love figuring out how to use the newest tools to get the job
-                  done.
+                  I&apos;m currently part of a small startup team at Ingenious
+                  Technology, where I translate product ideas into reusable
+                  frontend components and practical user flows. Recent work
+                  includes iRides, a luxury vehicle rental platform for
+                  discovering premium vehicles, viewing vehicle details, and
+                  managing bookings.
                 </Text>
               </VStack>
             </motion.div>

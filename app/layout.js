@@ -8,8 +8,8 @@ import 'reactflow/dist/style.css';
 const epilogue = Epilogue({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Clintons Portfolio",
-  description: "Clinton is a software engineer who loves to code.",
+  title: "Clinton Emenari | Frontend Developer",
+  description: "Frontend Developer building React, Next.js, React Native, and AWS-backed user experiences.",
 };
 
 export default function RootLayout({ children }) {

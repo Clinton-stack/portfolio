@@ -1,31 +1,30 @@
-
 import React from "react";
 import { FaCircle } from "react-icons/fa";
-import { Flex, Heading } from "@chakra-ui/react";
+import { Heading } from "@chakra-ui/react";
 import { motion } from "framer-motion";
 
-
-const Experience = ({experience,index}) => {
+const Experience = ({ experience }) => {
   return (
     <motion.div
       initial={"hidden"}
       whileInView={"visible"}
-      viewport={{once:true,amount:1}}
+      viewport={{ once: true, amount: 1 }}
       transition={{
-        duration:0.9
+        duration: 0.9,
       }}
       variants={{
-        hidden:{
-          opacity:0,
-          y:-60
+        hidden: {
+          opacity: 0,
+          y: -60,
         },
-        visible:{
-          opacity:1,
-          y:0
-        }
+        visible: {
+          opacity: 1,
+          y: 0,
+        },
       }}
-      className={`container ${experience.id % 2 === 0 ? "left-container" : "right-container"}`}
-     
+      className={`container ${
+        experience.id % 2 === 0 ? "left-container" : "right-container"
+      }`}
     >
       <FaCircle className="circle" />
       <div className="textbox">
@@ -35,11 +34,8 @@ const Experience = ({experience,index}) => {
         <p className="companyText">
           {experience.company} | {experience.year}
         </p>
-        <p className="regularText">
-          {experience.description}
-        </p>
+        <p className="regularText">{experience.description}</p>
       </div>
-      
     </motion.div>
   );
 };

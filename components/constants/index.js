@@ -1,50 +1,50 @@
 export const experiences = [
   {
     id: 1,
-    title: "TRAINEE",
-    company: "KreativeStorm",
+    title: "FRONTEND DEVELOPER",
+    company: "Ingenious Technology, Lagos, Nigeria",
     description:
-      "Created cool, accessible, and responsive web designs to enhance user experience. Implemented semantic coding principles in web development to improve code clarity and SEO. Utilized Web Accessibility tools to design websites that cater to users with disabilities. Learned about Web Content Accessibility Guidelines (WCAG) to ensure inclusive web design. Understood the purpose, uses, and rules of WAI-ARIA (Web Accessibility Initiative - Accessible Rich Internet Applications) for enhancing web accessibility.",
-    year: "Septemeber 2022 – December 2023",
+      "Build responsive React, Next.js and React Native interfaces for web and mobile products, including iRides, a luxury vehicle rental platform. Translate product ideas into reusable components, connect frontend flows to REST APIs and AWS services, and collaborate with the founding team on feature delivery.",
+    year: "March 2023 - Present",
   },
   {
     id: 2,
-    title: "TEAM SUPPORT",
-    company: "Fenix Outdoor Logistics ",
+    title: "ROBOT OPERATOR - AUTOMATED LASER WELDING SYSTEMS",
+    company: "Photon Laser Manufacturing GmbH, Germany",
     description:
-      " Worked with WMS like Microsoft AX and Manhattan Scale to received, processed and tracked incoming and outgoing warehouse shipments. Troubleshot errors and maintained accuracy of scanners. Located and replenished missing items in stock.",
-    year: "August 2022 – June 2023",
+      "Operate and monitor automated laser-welding production systems using Reis and KUKA control interfaces. Set up production programs, perform approved corrections, support first-level fault diagnosis, conduct quality checks and proposed a digital process-improvement app concept now being considered for the wider application ecosystem.",
+    year: "November 2025 - Present",
   },
   {
     id: 3,
-    title: "SELF-LEARNING (ONLINE COURSES)",
-    company: "",
+    title: "FRONTEND DEVELOPER TRAINEE",
+    company: "KreativeStorm, Berlin, Germany",
     description:
-      "Completed advanced courses in SQL for Data Analytics and Business Intelligence (John Pauler on Udemy). Gained proficiency in the Node.js stack through courses like 'The Complete Node JS Developer' (Andrew Mead on Udemy) and 'The MERN Stack' (The Net Ninja on YouTube). Developed skills in web development using NEXT JS and Chakra UI (The Net Ninja on YouTube).",
-    year: "July 2022 – present",
+      "Developed responsive, accessible web interfaces using semantic HTML, CSS and JavaScript, applying WCAG and WAI-ARIA principles to improve usability, maintainability and search visibility.",
+    year: "September 2022 - December 2023",
   },
   {
     id: 4,
     title: "DIGITAL TRANSFORMATIVE DESIGNER",
-    company: "Digital School Society, Amsterdam",
+    company: "Digital Society School, Amsterdam, Netherlands",
     description:
-      "Led a team in researching how digital twin technology could address night-time heat stress in urban areas. Conceptualized and developed a solution to educate citizens and combat night-time heat. Conducted user research and co-creation sessions with Dutch homeowners. Served as the Scrum Master for one of the Sprints.",
-    year: "Feb 2022 - June 2022",
+      "Led research and concept work for a digital solution addressing night-time urban heat stress. Conducted co-creation sessions with Dutch homeowners and supported sprint planning, communication and delivery as Scrum Master.",
+    year: "February 2022 - June 2022",
   },
   {
     id: 5,
-    title: "SOFTWARE DEVELOPER (TRAINEE)",
-    company: "Bizzdesk Group Ltd, Abuja",
+    title: "SOFTWARE DEVELOPER TRAINEE",
+    company: "Bizzdesk Group Ltd, Abuja, Nigeria",
     description:
-      "I acquired foundational skills in front-end development, where I utilized the Angular framework to create dynamic applications such as an inventory management system. Additionally, I gained exposure to back-end development by learning Java with the Spring Boot framework to develop robust backend applications.",
-    year: "Dec 2018 – Feb 2019",
+      "Developed Angular frontend components for an inventory management application and connected interfaces with backend services. Built foundational backend functionality using Java and Spring Boot.",
+    year: "December 2018 - February 2019",
   },
   {
     id: 6,
-    title: " IT SUPPORT INTERN",
-    company: "Pipelines and Product Marketing Company Ltd, Abuja",
+    title: "TEAM SUPPORT",
+    company: "Fenix Outdoor Logistics, Almere, Netherlands",
     description:
-      "Provided technical assistance over the phone or email. Conducted hardware maintenance, software troubleshooting, and installations. Developed a first aid website to address frequently asked software and hardware issues.",
-    year: "June 2015 - Sep 2015",
+      "Processed and tracked warehouse shipments using Microsoft Dynamics AX and Manhattan SCALE. Troubleshot scanner issues, supported stock accuracy and replenished missing inventory.",
+    year: "August 2022 - June 2023",
   },
 ];

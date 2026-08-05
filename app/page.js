@@ -14,7 +14,7 @@ export default function Home() {
     <Container maxW='1200px'>
       <HStack spacing="10px" h='50px' align='center' mt='30px'>
         <Link
-          href="tel:+4915216455841"
+          href="tel:+4915783120146"
           target="_blank"
         >
           <IoIosCall className="icons" />
@@ -69,7 +69,7 @@ export default function Home() {
           </Heading>
           <HStack spacing="10px" h='50px' align='center' mb='30px'>
             <Link
-              href="tel:+4915216455841"
+              href="tel:+4915783120146"
               target="_blank"
             >
               <IoIosCall className="icons" />
