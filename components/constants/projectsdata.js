@@ -32,13 +32,13 @@ export const projectsData = [
   },
   {
     id: 4,
-    name: "Food Lovers App",
+    name: "Ingenious Plug Website",
     description:
-      "Recipe discovery app using TheMealDB API with a simple, responsive browsing experience.",
-    client: "Personal Project",
-    technologies: "React, Next.js, Chakra UI, Tailwind CSS, TheMealDB API",
-    image: "/foodlovers.png",
-    link: "https://food-lovers-app.vercel.app/",
+      "Static call-to-action website introducing Ingenious Plug, an app that connects people with service and blue-collar professionals.",
+    client: "Ingenious Technology",
+    technologies: "React, AWS S3, AWS CloudFront",
+    image: "/ingenious-plug-project.png",
+    link: "https://ingeniousplug.com/",
   },
   {
     id: 5,
