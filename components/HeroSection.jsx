@@ -75,7 +75,7 @@ export default function HeroSection() {
                 </p>
                 <Button
                   as="a"
-                  href="/assets/ClintonEmenariResume.pdf"
+                  href="/assets/Clinton_Emenari_CV.pdf"
                   download
                   target="_blank"
                   size="md"
